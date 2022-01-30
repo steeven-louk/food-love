@@ -10,7 +10,7 @@ export default function Home() {
   return (
       <section>
         <Navbar />
-        <Heros />
+        <Heros/> 
         <About />
         <Section1 />
         <Section2 />
