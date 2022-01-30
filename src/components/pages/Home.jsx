@@ -8,7 +8,7 @@ import Section2 from '../Section2';
 
 export default function Home() {
   return (
-      <section>
+      <section style={{ 'background-color':' #1d1d23' }}>
         <Navbar />
         <Heros/> 
         <About />
