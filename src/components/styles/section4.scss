@@ -1,0 +1,42 @@
+.section-4{
+    width: 100%;
+    height: 50vh;
+    background: goldenrod;
+    margin-top: 10rem;
+}
+
+.section4-container{
+    display: flex;
+    position: relative!important;
+
+    //flex-direction: row;
+    //justify-content: center;
+    //align-items: center;
+    .img-container {
+
+         img{
+            position: absolute;
+            width: 35%;
+            top: -67px;
+            left:15px
+    }
+    }
+   
+
+    .contenu{
+        color: #fff;
+        width: 538px;
+        display: flex;
+        flex-direction: column;
+        //justify-content: end;
+        margin-left: 40%;
+
+        h1{
+            font-size: 35px;
+        }
+        p{
+            font-size: 25px;
+        }
+    }
+
+}

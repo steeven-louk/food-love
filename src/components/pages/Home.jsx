@@ -7,6 +7,7 @@ import Navbar from '../Navbar';
 import Section1 from '../Section1';
 import Section2 from '../Section2';
 import Section3 from '../Section3';
+import Section4 from '../Section4';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Section2 data={Data_img.grid}/>
         <Section3 />
         <Menu data={Data_img.menu} />
+        <Section4 />
       </section>
   );
 }
