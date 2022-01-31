@@ -1,1 +1,1 @@
-.section-3{width:100%;height:100%}
+.section-3{width:100%;height:100vh;background:url(../img/bg-section3.png) no-repeat;background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center}.section-3 .section-container{width:40%;border:6px solid #daa520;padding:15px;text-align:center}.section-3 .section-container h1{font-size:55px;color:#fff;text-transform:capitalize}.section-3 .section-container .text{color:#fff;font-size:30px}

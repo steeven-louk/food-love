@@ -17,7 +17,7 @@ export default function Home() {
         <Section1 />
         <Section2 data={Data_img.grid}/>
         <Section3 />
-        <Menu />
+        <Menu data={Data_img.menu} />
       </section>
   );
 }
