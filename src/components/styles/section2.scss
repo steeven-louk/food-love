@@ -1,0 +1,25 @@
+.section-2{
+    width: 100%;
+    height: 100%;
+}
+
+.section_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .title {
+        color: #fff;
+        text-transform: capitalize;
+        font-size: 55px;
+        margin: 55px 0 103px 0;
+        text-align: center;
+    }
+
+    .grid-img{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 1em;
+        margin-left: 28px;
+       
+    }
+}

@@ -1,17 +1,32 @@
-import bg_heros from '../img/bg_heros.png';
-import hero_left from '../img/hero_left.png';
+import grid1 from '../img/grid1.png';
+import grid2 from '../img/grid2.png';
+import grid3 from '../img/grid3.png';
+import grid4 from '../img/grid4.png';
+import grid5 from '../img/grid5.png';
+import grid6 from '../img/grid6.png';
 
 const Data_img = {
-    img_bg:[
+
+    grid:[
         {
-            img: bg_heros,
+            img: grid1
         },
-    ],
-        heroLeft:[
-           { 
-               img: hero_left,
-            }
-        ],
+        {
+            img: grid2
+        },
+        {
+            img: grid3
+        },
+        {
+            img: grid4
+        },
+        {
+            img: grid5
+        },
+        {
+            img: grid6
+        }
+    ]
 
 }
 
