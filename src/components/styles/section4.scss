@@ -3,6 +3,11 @@
     height: 50vh;
     background: goldenrod;
     margin-top: 10rem;
+
+    @media screen and (max-width:450px) {
+       
+        margin: 2rem auto;
+    }
 }
 
 .section4-container{
@@ -15,7 +20,11 @@
             position: absolute;
             width: 35%;
             top: -67px;
-            left:15px
+            left:15px;
+
+            @media screen and (max-width:450px) {
+               display: none;
+            }
     }
     }
    
@@ -27,6 +36,14 @@
         flex-direction: column;
         //justify-content: end;
         margin-left: 40%;
+
+        @media screen and (max-width:450px) {
+           margin: 10px auto;
+           width: fit-content;
+           text-align: center;
+           justify-content: center;
+           align-items: center;
+        }
 
         h1{
             font-size: 35px;

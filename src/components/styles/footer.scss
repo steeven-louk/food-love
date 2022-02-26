@@ -14,6 +14,13 @@
         display: flex;
         line-height: 10;
 
+        @media screen and (max-width:450px) {
+            flex-direction: column;
+            line-height: 3rem;
+            align-items: center;
+            margin: 15px auto;
+        }
+
         li{
             text-transform: uppercase;
             color: #fff;
@@ -23,11 +30,14 @@
         }
     }
 
-    .social-icon > .icon{
+    .social-icon >.icon{
         margin-left: 30px;
         padding: 5px;
         background: #fff;
         border-radius: 100%;
-        color:  rgba(0, 0, 0, 0.8);;
+        color:  rgba(0, 0, 0, 0.8);
+
+      
     }
+    
 }

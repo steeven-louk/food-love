@@ -6,6 +6,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+
+    @media screen and (max-width:450px) {
+        height: 75vh;
+    }
 }
 
 .hero__container {
@@ -19,8 +23,18 @@
      width: 100%;
      margin-left: 50px;
        
+     @media screen and (max-width:450px) {
+        margin: 0 ;
+    }
+
         .right-content {
             width: 60%;
+
+            @media screen and (max-width:450px) {
+                width: 100%;
+                text-align: center;
+                margin: auto;
+            }
         h1{
             font-size: 45px;
             text-transform: capitalize;
@@ -30,6 +44,11 @@
         p{
             color: #fff;
             font-size: 18px;
+
+            @media screen and (max-width:450px) {
+                padding-bottom: 15px;
+                line-height: 2rem;
+            }
         }
 
         .contact-btn{
@@ -49,6 +68,10 @@
 
     .container__left{
         width: 100%;
+
+        @media screen and (max-width:450px) {
+           display: none;
+        }
 
        .left-content {
        // width: 80%;

@@ -8,6 +8,10 @@
     align-items: center;
     justify-content: center;
 
+    @media screen and (max-width:450px) {
+        height: 75vh;
+    }
+
 
 .section-container {
  
@@ -16,10 +20,21 @@
     padding: 15px;
     text-align: center;
 
+    @media screen and (max-width:450px) {
+       width: 100%;
+       padding: 0;
+        letter-spacing: 5px;
+        font-weight: 200;
+    }
+
     h1{
         font-size: 55px;
         color: #fff;
         text-transform: capitalize;
+
+        @media screen and (max-width:450px) {
+           font-size: 45px;
+        }
     }
 
     .text {

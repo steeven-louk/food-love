@@ -3,7 +3,7 @@ import './styles/footer.scss';
 import logoFooter from './img/logo-footer.png';
 import { Facebook, Instagram, Pinterest, Twitter } from '@material-ui/icons';
 
-const Footer = () => {
+const Footer = () => { 
   return (
     <section className="footer-section">
         <div className="footer-container">
@@ -21,6 +21,7 @@ const Footer = () => {
                <Twitter className='icon' />
                <Instagram className='icon' />
                <Pinterest className='icon' />
+               
             </div>
         </div>
     </section>
