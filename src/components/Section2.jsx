@@ -4,7 +4,6 @@ import './styles/section2.scss'
 
 const Section2 = ({data}) => {
 
-  console.log(data);
   return (
 
     <div className="section-2">
